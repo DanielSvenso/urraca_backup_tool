@@ -4,6 +4,7 @@ Daniel Svenson, 2024.
 danielsvenson@protonmail.com
 
 
+
 Descripción
 
 Urraca Backup Tool es un script en Python 3 y Tkinter para realizar salvaguarda de ficheros y directorios usando 
@@ -23,6 +24,7 @@ el servicio sshd sobre la utilidad Termux.
 Localización de idioma: actualmente puede elegirse entre Español e Inglés.
 
 
+
 Instalación
 
 Se necesita la instalación de Python 3 y las librerías de Tkinter.
@@ -36,10 +38,12 @@ para el funcionamiento. Debe crear el directorio /home/usuario/pruebas_urraca o 
 antes de iniciar una copia si usa el fichero urracabt.conf añadido.
 
 
+
 Licencia
 
 Tanto el código como los ficheros de locaclización y el fichero de logo se distribuyen como sofware
 libre bajo la licencia GNU GPL para cuya lectura se remite a la información en la web.
+
 
 
 Observaciones
