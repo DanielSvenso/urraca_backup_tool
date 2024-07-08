@@ -1,31 +1,26 @@
-Autor
+## Urraca Backup Tool
 
+### Autor
 Daniel Svenson, 2024.
 danielsvenson@protonmail.com
 
-
-
-Descripción
-
-Urraca Backup Tool es un script en Python 3 y Tkinter para realizar salvaguarda de ficheros y directorios usando 
+### Descripción
+<p>Urraca Backup Tool es un script en Python 3 y Tkinter para realizar salvaguarda de ficheros y directorios usando 
 la utilidad rsync y sus opciones presentandolas en una interfaz gráfica de usuario que intenta ser clara y con
-opciones fácilmente visibles.
-Está realizada sobre un sistema GNU/Linux usando, además de rsync, comandos de este sistema.
+opciones fácilmente visibles.</p>
+<p></p>Está realizada sobre un sistema GNU/Linux usando, además de rsync, comandos de este sistema.
 Es una aplicación funcional tal como se presenta aunque está en proyecto añadir mejoras tal como añadir
-diferentes perfiles de ejecución.
-Se ha desarrollado teniendo en consideración las necesidades de usuario, no la de administradores de sistemas
-en las que, probablemente se requieran acciones más complejas.
-
-Cuenta con la posibilidad de sincronizar datos de forma local, en un disco duro externo, por ejemplo, y 
+diferentes perfiles de ejecución.</p>
+<p></p>Se ha desarrollado teniendo en consideración las necesidades de usuario, no la de administradores de sistemas
+en las que, probablemente se requieran acciones más complejas.</p>
+<p></p>Cuenta con la posibilidad de sincronizar datos de forma local, en un disco duro externo, por ejemplo, y 
 la de realizar copias en remoto a través de un acceso por usuario y contraseña o de SSH. Las pruebas
 para el trabajo remoto se han realizado desde un sistema GNU/Linux hacia uno Android en el que se ejecuta
-el servicio sshd sobre la utilidad Termux. 
+el servicio sshd sobre la utilidad Termux.</p>
+<p>Posee un programador para cron.</p>
+<p>Localización para los idiomas Español e Inglés</p>
 
-Localización de idioma: actualmente puede elegirse entre Español e Inglés.
-
-
-
-Instalación
+### Instalación
 
 Se necesita la instalación de Python 3 y las librerías de Tkinter.
 Actualmente no existe un instalador, pero es posible clonar el repositorio de github donde se halla alojada
@@ -37,16 +32,13 @@ por el usuario. Si no desea usar este fichero, recibirá notificación de ello y
 para el funcionamiento. Debe crear el directorio /home/usuario/pruebas_urraca o modificar este parámetro
 antes de iniciar una copia si usa el fichero urracabt.conf añadido.
 
-
-
-Licencia
+### Licencia
 
 Tanto el código como los ficheros de locaclización y el fichero de logo se distribuyen como sofware
 libre bajo la licencia GNU GPL para cuya lectura se remite a la información en la web.
 
 
-
-Observaciones
+### Observaciones
 
 Cualquier tipo de sugerencia para la mejora de las funciones o adición de nuevas características
 serán bienvenidas.
